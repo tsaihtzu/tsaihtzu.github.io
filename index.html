@@ -25,15 +25,15 @@
 					  <a class="nav-link active" aria-current="page" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="https://sam0214.notion.site/1-694cd97345764d15af675b7066217f3e?pvs=4">about me </a>
+					  <a class="nav-link" href="https://sam0214.notion.site/Sam-s-website-694cd97345764d15af675b7066217f3e?pvs=4">about me </a>
 					</li>
 					<li class="nav-item dropdown">
 					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						more
 					  </a>
 					  <ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">Favorite Song</a></li>
-						<li><a class="dropdown-item" href="#">My school</a></li>
+						<li><a class="dropdown-item" href="0227/index.html">Favorite Song</a></li>
+						<li><a class="dropdown-item" href="0227/index1.html">My school</a></li>
 						<li><hr class="dropdown-divider"></li>
 						<li><a class="dropdown-item" href="#">Something else here</a></li>
 					  </ul>
@@ -48,7 +48,7 @@
 			</nav>
 		
 		<!--輪播器-->
-		<div id="carouselExample" class="carousel slide">
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
 			  <img src="img/ntue.jpg" class="d-block w-100" alt="國北教的校門口">
@@ -74,20 +74,20 @@
 			<div class="carousel-item">
 			  <img src="img/view7.jpg" class="d-block w-100" alt="台大的椰林大道夕陽照">
 			</div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
 <!--
 			<div class="carousel-item">
 			  <img src="..." class="d-block w-100" alt="...">
 			</div>
 -->
 		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
 		</div>
 		
 	<!--Alarts-->
@@ -218,7 +218,11 @@
 		</div>
 
 	<!--footer-->
-
+	<footer>
+		<p>
+			111213225數資一(資教組)蔡孝慈 2024/5  &copy;
+		</p>	
+	</footer>
 <!--
 		<p> <a href="0305/s0305.html">0305-名片</a><br>
 		    <a href="0312/s0312.html">0312-容器container</a><br>
@@ -235,10 +239,24 @@
 		</p>
 -->
 <style>
+	body{
+		margin: 50px
+	}
 .carousel-inner img{
-		width: auto;
-		height: 300px;
+		height: 400px;
+		width: auto
 	}	
+	.card{
+	margin-top: 10px; 
+	/*x 軸-位移 | y 軸-位移 | 模糊值 blur-radius｜擴散值 spread-radius｜顏色*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+	footer{
+		margin-top:10px;
+		background-color: #ced4da;
+		text-align: center;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	}
 </style>
 		 
 </html>
