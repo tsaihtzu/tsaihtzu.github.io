@@ -1,4 +1,7 @@
-.captionstyle{
-    -webkit-box-shadow: 50px 50px 10px 10px #D01012;
-    box-shadow: 50px 50px 10px 10px #D01012;
+.title1 img {
+	box-shadow: 10px 10px 5px #aaaaaa;
+    color: #3F8FC1;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 15px 16px;
 }
